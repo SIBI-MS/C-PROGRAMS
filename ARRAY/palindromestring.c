@@ -2,7 +2,7 @@
 int main()
 {
   char a[20];
-  int i,length,j;
+  int i,length=0,j;
   printf("enter the word");
   scanf("%s",a);
   for(i=0;a[i]!='\0';i++)
