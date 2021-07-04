@@ -19,7 +19,8 @@ int main()
           for(j=1;j<ncopy;j++)
           {
             printf("  ");
-          }j=1;
+          }
+          j=1;
         }
         printf("& ");
       }
@@ -28,6 +29,7 @@ int main()
         printf("  ");
       }
     }
-    ncopy--;printf("\n");
+    ncopy--;
+    printf("\n");
   }
 }
