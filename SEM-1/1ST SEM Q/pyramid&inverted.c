@@ -10,7 +10,8 @@ int main()
     {
       printf("&");
     }
-    n++;printf("\n");
+    n++;
+    printf("\n");
     for(j=0;j<n;j++)
     {
       printf(" ");
